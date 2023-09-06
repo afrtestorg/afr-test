@@ -37,6 +37,8 @@ pipeline {
             steps {
                 echo "uypdate 1"
                 echo 'mvn --version'
+                echo 'IN checked out version'
+
                 //sh cat ./Jenkinsfile
             }
         }
