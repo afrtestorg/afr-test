@@ -37,6 +37,8 @@ pipeline {
             steps {
                 echo "uypdate 1"
                 echo 'mvn --version'
+
+                echo "being build in the info session"
                 //sh cat ./Jenkinsfile
             }
         }
